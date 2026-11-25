@@ -1,6 +1,6 @@
 # The Serve Archive: rebuilding tennis dresses from match photos
 
-[![The Serve Archive dress rail](images/dress-rail.jpg)](https://www.servearchive.com/)
+[![The Serve Archive dress rail in motion](images/dress-rail.gif)](https://www.servearchive.com/)
 
 [The Serve Archive](https://www.servearchive.com/) is a museum-style catalogue of memorable tennis dresses, from the 1910s to the 2026 season. Every garment is shown the same way: empty, straight on, front and back, on the same warm-grey paper.
 
@@ -48,15 +48,29 @@ Four examples. In each row: the photograph used as evidence, then the generated 
 
 **1. Choose it.** Only dresses with a real design story: an unusual silhouette or construction, heavy embellishment, or something made for one player. A title win in an ordinary kit does not qualify. The full criteria are in [selection-criteria.md](process/selection-criteria.md).
 
-**2. Check the facts.** Player, tournament, date, designer, and the exact version in the photo. Similar outfits get mixed up online, so this step catches real errors. For Rezaï I used a Roland-Garros photo, not the similar Australian Open outfit. Bethanie Mattek-Sands's 2006 US Open look turned out to be a top and skirt, not the one-piece toga it is often described as.
+**2. Check the facts.** Player, tournament, date, designer, and the exact version in the photo. Evidence is match photos and, where a garment survives, museum photos of the object, which show construction better than a player in motion. Similar outfits get mixed up online, so this step catches real errors. For Rezaï I used a Roland-Garros photo, not the similar Australian Open outfit. Bethanie Mattek-Sands's 2006 US Open look turned out to be a top and skirt, not the one-piece toga it is often described as.
 
-**3. Generate the front.** Each prompt gets two kinds of image with strict roles. The match photo is the only source of the design: cut, colour, seams, trim, logos. A second image is used only for presentation: the empty-garment look, the light, the scale. The prompt then fixes everything else: an exact straight-on view, the garment between 15% and 85% of the canvas height, a flat warm-grey background (#f7f6f2), and no body, hanger, racket or jewellery. [Example prompts](process/prompts/rezai-rg-2010.md).
+**3. Generate the front.** Each prompt gets two kinds of image with strict roles. The match photo is the only source of the design: cut, colour, seams, trim, logos. A second image is used only for presentation: the empty-garment look, the light, the scale. The prompt then fixes everything else: an exact straight-on view, the garment between 15% and 85% of the canvas height, a flat warm-grey background (#f7f6f2), and no body, hanger, racket or jewellery. Generation is iterative: a first result establishes the garment, then focused passes fix framing, drape or one detail. A prompt is an instruction, not proof that every detail came out right, which is why step 6 exists. [Example prompts](process/prompts/rezai-rg-2010.md).
 
 **4. Reconstruct the back.** Most match photos never show the back. When there is a photo of it, it is used. When there isn't, the back is rebuilt conservatively from the front and side and marked "inferred" on the site. Early backs kept coming out as fronts seen from behind, with chest shapes and front necklines, so [rules for rear views](process/rear-view-rules.md) were added after review.
 
-**5. Make the set consistent.** A second, narrower pass fixes stance, camera angle and placement without touching the garment ([example](process/prompts/serena-rg-2018-remaster.md)). Then every front and back pair is measured and aligned to the same centre and height, and each image's display brightness is calibrated so all 175 sit on the same paper colour.
+**5. Make the set consistent.** A second, narrower pass fixes stance, camera angle and placement without touching the garment ([example](process/prompts/serena-rg-2018-remaster.md)). Then every front and back pair is measured and aligned to the same centre and height, without stretching. The background took several rounds to get right: one continuous paper surface, with no lighter rectangle around a garment and no lost detail in white fabric.
 
 **6. Check before publishing.** Every image is reviewed by eye, and 14 automated checks cover the content, player pages, navigation and link previews. If a detail is uncertain, the site says so instead of guessing.
+
+## The dress rail
+
+The home page hangs the collection on a virtual clothing rail. You can drag along it, turn a dress to see the back, and open its page.
+
+It is not a set of full 3D models. Each dress is its front and back image mapped onto curved surfaces built in Three.js:
+
+- **Cut-out.** The browser removes only the background connected to the image edges, so white fabric survives.
+- **Volume.** The silhouette is measured row by row and shapes a curved front and back, with a depth profile for the bodice and a skirt that opens outward.
+- **Hanging.** Each dress attaches to a transparent hanger at its shoulder or strap points, not the top of the image, so it looks supported.
+- **Movement.** Damped springs ease the rail into place. A small shader keeps the shoulders steady while the hem lags, drifts and ripples on a turn. It is designed motion, not a cloth simulation.
+- **Performance and access.** The selected dress loads first and the rest load outward. The scene pauses off screen. Reduced-motion settings turn the movement off, and every dress has a keyboard-reachable link.
+
+The side view is an interpretation built from the two images, not a record of the real garment. The full write-up is in [how-it-works.md](process/how-it-works.md).
 
 ## What I decided
 
