@@ -84,7 +84,7 @@ The side view is an interpretation built from the two images, not a record of th
 
 The generated garments are interpretive reconstructions, not photographs of the real clothes. The four match photos in this repository are all Creative Commons or public domain, with their credits above. The live site also shows press photos for comparison, and those stay with their owners, so they are not included here.
 
-The rail code is shared to read and run, not licensed for reuse. Three.js is included under its MIT licence.
+The rail code is free to reuse under the [MIT licence](rail/LICENSE). The dress images are not included in that licence. Three.js is included under its own MIT licence.
 
 ---
 

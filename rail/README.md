@@ -25,4 +25,4 @@ How it works is explained in [how-it-works.md](../process/how-it-works.md).
 
 ## Rights
 
-This code is shared to read and run, not licensed for reuse. Three.js is included under its MIT licence (`dress-rail/vendor/LICENSE-three.txt`), and the Playfair Display font under the SIL Open Font License (`assets/fonts/`).
+The rail code is free to reuse under the [MIT licence](LICENSE): take the effect, change it, use it in your own work. The dress images and the dress list are not included in that licence. Three.js is included under its MIT licence (`dress-rail/vendor/LICENSE-three.txt`), and the Playfair Display font under the SIL Open Font License (`assets/fonts/`).
