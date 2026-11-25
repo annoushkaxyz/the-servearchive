@@ -74,15 +74,6 @@ The side view is an interpretation built from the two images, not a record of th
 
 **The code is in [`rail/`](rail/)** and runs locally with one command: `python3 -m http.server 8880 --directory rail`.
 
-## What I decided
-
-The AI generates and the scripts check, but the archive is edited.
-
-- **What gets in.** Several looks were cut at my request after review because they did not meet the bar.
-- **What is true.** Facts are checked against sources and the corrections are recorded: the Mattek-Sands outfit, a Wozniacki colourway that is easy to confuse with others, a press release that got Venus Williams's match day wrong.
-- **How honest each image is.** Inferred backs, interpreted colours and undocumented designers are labelled on the site, not hidden.
-- **How it looks.** The paper colour, the type and the dress rail on the home page.
-
 ## Tools
 
 - **Images:** OpenAI's image generation, run through Codex, which also helped build the site.
