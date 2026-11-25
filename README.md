@@ -72,6 +72,8 @@ It is not a set of full 3D models. Each dress is its front and back image mapped
 
 The side view is an interpretation built from the two images, not a record of the real garment. The full write-up is in [how-it-works.md](process/how-it-works.md).
 
+**The code is in [`rail/`](rail/)** and runs locally with one command: `python3 -m http.server 8880 --directory rail`.
+
 ## What I decided
 
 The AI generates and the scripts check, but the archive is edited.
@@ -90,6 +92,8 @@ The AI generates and the scripts check, but the archive is edited.
 ## About the images
 
 The generated garments are interpretive reconstructions, not photographs of the real clothes. The four match photos in this repository are all Creative Commons or public domain, with their credits above. The live site also shows press photos for comparison, and those stay with their owners, so they are not included here.
+
+The rail code is shared to read and run, not licensed for reuse. Three.js is included under its MIT licence.
 
 ---
 

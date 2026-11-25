@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Serve Archive dress rail</title>
+<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<h1 class="demo-title">The Serve Archive</h1>
+<p class="demo-note">Drag the rail, hover a dress, or use Front and Back. Dress pages live on <a href="https://www.servearchive.com/">servearchive.com</a>.</p>
+<section class="archive-rail" id="dress-rail" aria-label="18 defining tennis looks"><div class="rail-stage" id="rail-stage"><canvas id="rail-rail-scene" aria-hidden="true"></canvas><div class="rail-garments" id="rail-garments" role="group" aria-label="Choose a dress"></div></div><div class="rail-caption"><div id="rail-look-info" aria-live="polite" aria-atomic="true"><p class="rail-meta" id="rail-look-meta">Naomi Osaka · US Open 2024</p><h2 id="rail-look-title">The magical-girl dress</h2></div><div class="rail-actions"><button type="button" class="rail-step" id="rail-previous" data-rail-control disabled aria-label="Previous dress"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m14 6-6 6 6 6"/></svg></button><div class="view-switch rail-angle-control" role="group" aria-label="Rail dress view"><button type="button" id="rail-front" data-rail-control disabled aria-pressed="true">Front</button><button type="button" id="rail-back" data-rail-control disabled aria-pressed="false">Back</button></div><button type="button" class="rail-step" id="rail-next" data-rail-control disabled aria-label="Next dress"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m10 6 6 6-6 6"/></svg></button></div></div></section>
+<script type="module">
+import {initDressRail} from './dress-rail/rail.js';
+const rail=document.getElementById('dress-rail');
+initDressRail(rail).catch(error=>{console.error(error);rail.classList.add('rail-unavailable');});
+</script>
+</body>
+</html>

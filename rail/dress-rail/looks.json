@@ -1,0 +1,200 @@
+[
+  {
+    "id": "serena-us-2006",
+    "name": "Gilded in New York",
+    "athlete": "Serena Williams",
+    "year": 2006,
+    "designer": "Nike",
+    "event": "US Open",
+    "front": "/assets/serena-us-2006.webp",
+    "back": "/assets/serena-us-2006-back.webp",
+    "url": "https://www.servearchive.com/look/serena-us-2006/"
+  },
+  {
+    "id": "sharapova-us-2007",
+    "name": "Big Apple after dark",
+    "athlete": "Maria Sharapova",
+    "year": 2007,
+    "designer": "Nike x Maria Sharapova",
+    "event": "US Open",
+    "front": "/assets/sharapova-us-2007.webp",
+    "back": "/assets/sharapova-us-2007-back.webp",
+    "url": "https://www.servearchive.com/look/sharapova-us-2007/"
+  },
+  {
+    "id": "sharapova-us-2006",
+    "name": "The little black dress",
+    "athlete": "Maria Sharapova",
+    "year": 2006,
+    "designer": "Nike (Martin Lotti)",
+    "event": "US Open",
+    "front": "/assets/sharapova-us-2006.webp",
+    "back": "/assets/sharapova-us-2006-back-v2.webp",
+    "url": "https://www.servearchive.com/look/sharapova-us-2006/"
+  },
+  {
+    "id": "pericoli-w-1964",
+    "name": "Featherweight",
+    "athlete": "Lea Pericoli",
+    "year": 1964,
+    "designer": "Ted Tinling",
+    "event": "Wimbledon",
+    "front": "/assets/pericoli-w-1964.webp",
+    "back": "/assets/pericoli-w-1964-back.webp",
+    "url": "https://www.servearchive.com/look/pericoli-w-1964/"
+  },
+  {
+    "id": "osaka-us-2024",
+    "name": "The magical-girl dress",
+    "athlete": "Naomi Osaka",
+    "year": 2024,
+    "designer": "Nike x Yoon Ahn",
+    "event": "US Open",
+    "front": "/assets/osaka-us-2024-green.webp",
+    "back": "/assets/osaka-us-2024-green-back.webp",
+    "url": "https://www.servearchive.com/look/osaka-us-2024/"
+  },
+  {
+    "id": "serena-miami-2004",
+    "name": "Metallic corsetry",
+    "athlete": "Serena Williams",
+    "year": 2004,
+    "designer": "Nike x Serena Williams",
+    "event": "Miami Open",
+    "front": "/assets/serena-miami-2004.webp",
+    "back": "/assets/serena-miami-2004-back.webp",
+    "url": "https://www.servearchive.com/look/serena-miami-2004/"
+  },
+  {
+    "id": "kirilenko-us-2007",
+    "name": "Chocolate and lace",
+    "athlete": "Maria Kirilenko",
+    "year": 2007,
+    "designer": "adidas x Stella McCartney",
+    "event": "US Open",
+    "front": "/assets/kirilenko-us-2007.webp",
+    "back": "/assets/kirilenko-us-2007-back.webp",
+    "url": "https://www.servearchive.com/look/kirilenko-us-2007/"
+  },
+  {
+    "id": "venus-rg-2010",
+    "name": "Lace on the clay",
+    "athlete": "Venus Williams",
+    "year": 2010,
+    "designer": "EleVen (Venus Williams)",
+    "event": "Roland-Garros",
+    "front": "/assets/venus-rg-2010.webp",
+    "back": "/assets/venus-rg-2010-back.webp",
+    "url": "https://www.servearchive.com/look/venus-rg-2010/"
+  },
+  {
+    "id": "sharapova-rg-2010",
+    "name": "The Paris crossover",
+    "athlete": "Maria Sharapova",
+    "year": 2010,
+    "designer": "Nike",
+    "event": "Roland-Garros",
+    "front": "/assets/sharapova-rg-2010.webp",
+    "back": "/assets/sharapova-rg-2010-back.webp",
+    "url": "https://www.servearchive.com/look/sharapova-rg-2010/"
+  },
+  {
+    "id": "townsend-us-2026",
+    "name": "Crystal corsetry",
+    "athlete": "Taylor Townsend",
+    "year": 2026,
+    "designer": "Anthony Lattimore x J. Bolin",
+    "event": "US Open",
+    "front": "/assets/townsend-us-2026.webp",
+    "back": "/assets/townsend-us-2026-back-v2.webp",
+    "url": "https://www.servearchive.com/look/townsend-us-2026/"
+  },
+  {
+    "id": "osaka-ao-2026",
+    "name": "The jellyfish dress",
+    "athlete": "Naomi Osaka",
+    "year": 2026,
+    "designer": "Nike",
+    "event": "Australian Open",
+    "front": "/assets/osaka-ao-2026.webp",
+    "back": "/assets/osaka-ao-2026-back-v2.webp",
+    "url": "https://www.servearchive.com/look/osaka-ao-2026/"
+  },
+  {
+    "id": "venus-ao-2010",
+    "name": "The slit illusion",
+    "athlete": "Venus Williams",
+    "year": 2010,
+    "designer": "EleVen (Venus Williams)",
+    "event": "Australian Open",
+    "front": "/assets/venus-ao-2010.webp",
+    "back": "/assets/venus-ao-2010-back.webp",
+    "url": "https://www.servearchive.com/look/venus-ao-2010/"
+  },
+  {
+    "id": "serena-us-2014",
+    "name": "Leopard in hot pink",
+    "athlete": "Serena Williams",
+    "year": 2014,
+    "designer": "Nike",
+    "event": "US Open",
+    "front": "/assets/serena-us-2014.webp",
+    "back": "/assets/serena-us-2014-back.webp",
+    "url": "https://www.servearchive.com/look/serena-us-2014/"
+  },
+  {
+    "id": "wozniacki-ao-2011",
+    "name": "Ballet through a prism",
+    "athlete": "Caroline Wozniacki",
+    "year": 2011,
+    "designer": "adidas x Stella McCartney",
+    "event": "Australian Open",
+    "front": "/assets/wozniacki-ao-2011.webp",
+    "back": "/assets/wozniacki-ao-2011-back.webp",
+    "url": "https://www.servearchive.com/look/wozniacki-ao-2011/"
+  },
+  {
+    "id": "sharapova-rg-2007",
+    "name": "Blue behind the veil",
+    "athlete": "Maria Sharapova",
+    "year": 2007,
+    "designer": "Nike x Maria Sharapova",
+    "event": "Roland-Garros",
+    "front": "/assets/sharapova-rg-2007.webp",
+    "back": "/assets/sharapova-rg-2007-back.webp",
+    "url": "https://www.servearchive.com/look/sharapova-rg-2007/"
+  },
+  {
+    "id": "serena-rg-2002",
+    "name": "Cameroon on clay",
+    "athlete": "Serena Williams",
+    "year": 2002,
+    "designer": "Puma",
+    "event": "Roland-Garros",
+    "front": "/assets/serena-rg-2002.webp",
+    "back": "/assets/serena-rg-2002-back.webp",
+    "url": "https://www.servearchive.com/look/serena-rg-2002/"
+  },
+  {
+    "id": "pierce-rg-1996",
+    "name": "The cross-back noir",
+    "athlete": "Mary Pierce",
+    "year": 1996,
+    "designer": "Nike",
+    "event": "Roland-Garros",
+    "front": "/assets/pierce-rg-1996.webp",
+    "back": "/assets/pierce-rg-1996-back.webp",
+    "url": "https://www.servearchive.com/look/pierce-rg-1996/"
+  },
+  {
+    "id": "pericoli-w-1955",
+    "name": "A flash of pink",
+    "athlete": "Lea Pericoli",
+    "year": 1955,
+    "designer": "Ted Tinling",
+    "event": "Wimbledon",
+    "front": "/assets/pericoli-w-1955.webp",
+    "back": "/assets/pericoli-w-1955-back.webp",
+    "url": "https://www.servearchive.com/look/pericoli-w-1955/"
+  }
+]
